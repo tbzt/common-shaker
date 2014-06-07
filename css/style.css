@@ -1,0 +1,155 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face 
+{
+	font-family: "Gill Sans";
+	font-style: normal;
+	font-weight: bold;
+	src: url(fonts/Gill Sans Bold.ttf) format("opentype");
+}
+
+body
+{
+	background-color: #ffffff;
+}
+
+#wrapper
+{
+	width: 1024px;
+	margin: auto;
+}
+
+#header
+{
+	height: 90px;
+}
+
+#logo
+{
+	height: 52px;
+	margin-left: 76px;
+	margin-top: 20px;
+	float: left;
+}
+
+#slogan
+{
+	float: left;
+	font-size: 34px;
+	margin-left: 15px;
+	margin-top: 25px;
+	font-family: "Gill Sans";
+	font-weight: bold;
+}
+
+#slogan a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#menu
+{
+	float: right;
+	margin-top: 65px;
+	list-style: none;
+}
+
+#menu li
+{
+	float: right;
+	margin-left: 10px;
+}
+
+#menu li a
+{
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#banner
+{
+	width: 1024px;
+	height: 345px;
+	background: url(../images/ban.jpg);
+	background-repeat: no-repeat;
+}
+
+.bouton
+{
+	float: left;
+	margin-top: 90px;
+	margin-left: 90px;
+	font-family: "Gill Sans";
+	font-weight: bold;
+}
+
+#computer
+{
+	height: 180px;
+	float: right;
+	margin-top: -60px;
+	margin-right: 145px;
+}
+
+#description
+{
+	margin: auto;
+	display: block;
+	height: 130px;
+	margin-top: 50px;
+}
+
+.description
+{
+	font-size: 17px;
+	font-family: "Gill Sans";
+	font-weight: bold;
+	float: left;
+}
+
+#text-1
+{
+	margin-left: 50px;
+}
+
+#text-2
+{
+	margin-left: 90px;
+}
+
+#text-3
+{
+	margin-left: 70px;
+}
+
+#text-4
+{
+	padding-top: 120px;
+	padding-left: 80px;
+	width: 100%;
+	font-size: 17px;
+	font-family: "Gill Sans";
+	font-weight: bold;
+}
+
+#footer
+{
+	width: 120px;
+	margin: auto;
+	list-style: none;
+}
+
+#footer li
+{
+	float: left;
+	margin-left: 5px;
+	margin-top: 100px;
+}

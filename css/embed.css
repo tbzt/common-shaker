@@ -1,0 +1,23 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper
+{
+	margin:auto;
+	width: 600px;
+	height: 430px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.copyCode
+{
+	width: 400px;
+	height: 100px;
+}

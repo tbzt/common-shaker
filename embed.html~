@@ -1,0 +1,1241 @@
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/embed.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<div id="wrapper">
+	<div id="Q-1">
+		<fieldset>
+			<legend>Quel est l’objet de la licence ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q1" value="R1" checked="checked">
+				Des contenus <a href="#" class="tooltip1" rel="tooltip" title="Créations protégeables par le droit de la propriété littéraire et artistique (droits d'auteur, droits voisins) mises à disposition. Peuvent notamment constituer un Contenu toute création dans le domaine littéraire, scientifique et artistique, quel qu'en soit le mode ou la forme d'expression, y compris sous forme numérique.">?</a>
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q1" value="R2" >
+				Des bases de données <a href="#" class="tooltip1" rel="tooltip" title="Désigne un ensemble d'informations organisées de manière systématique ou méthodique et accessibles individuellement par voie électronique ou de toute autre manière prévue">?</a>
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q1" value="R3" >
+				Des logiciels <a href="#" class="tooltip1" rel="tooltip" title="Désigne l’ensemble composé d'un ou plusieurs programmes, ainsi que les fichiers nécessaires pour les rendre opérationnels d’un logiciel sous sa forme de Code Objet et/ou de Code Source et le cas échéant sa documentation, dans leur état au moment de l'acceptation de la Licence.">?</a>
+			</label>
+			
+			<br/>
+			<br/>
+
+			<button id="BQ1" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+
+
+	<div id="Q-2" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous limiter l’usage de votre contenu à un domaine restreint ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q2" value="R1" checked="checked">
+				Secteur Public <a href="#" class="tooltip1" rel="tooltip" title="Le secteur public, aux termes de cette licence, doit s’entendre, notamment, comme des services de l’Etat, des opérateurs de l’Etat, des collectivités territoriales ou des organismes de protection sociale. La présente licence s’étend aussi à la formation des agents publics.">?</a>
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q2" value="R2" >
+				Education <a href="#" class="tooltip1" rel="tooltip" title="Limitation à l'éducation et à la pédagogie">?</a>
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q2" value="R3">
+				Non <a href="#" class="tooltip1" rel="tooltip" title="Je ne souhaite pas restreindre le domaine d'utilisation de mon contenu">?</a>
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ2" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-3" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous que l’on puisse adapter et modifier votre contenu ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q3" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q3" value="R2" >
+				Non
+			</label>
+
+		<br/>
+		<br/>
+
+		<button id="BQ3" type="submit" class="btn btn-danger">Suivant</button>
+	</div>
+
+	<div id="Q-4" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous que l’on puisse transformer, agréger et enrichir votre contenu ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q4" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q4" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ4" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-5" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous que l’on puisse exploiter commercialement votre contenu ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q5" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q5" value="R2" >
+				Si modification
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q5" value="R3" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ5" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-6" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous obligé le partage de votre contenu et des adaptations sous les mêmes conditions ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q6" value="R1" checked="checked">
+				Oui 
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q6" value="R2" >
+				Non 
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ6" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-7" class="hidden">
+		<fieldset>
+			<legend>Voulez-vous exploiter votre base de donnée commercialement ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q7" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q7" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ7" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-8" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous imposer le partage de votre contenu et des adaptations sous les mêmes conditions ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q8" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q8" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ8" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-9" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous que l’on puisse exploiter commercialement votre contenu ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q9" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q9" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ9" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	<div id="Q-16" class="hidden">
+		<fieldset>
+			<legend>S'agit-il de données publiques ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q16" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q16" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ16" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	<div id="Q-17" class="hidden">
+		<fieldset>
+			<legend>Ces données publiques contiennent-elles des données nominatives ? </legend>
+
+			<label class="radio">
+				<input type="radio" name="Q17" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q17" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ17" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	<div id="Q-18" class="hidden">
+		<fieldset>
+			<legend>Ces données publiques contiennent-elles des données nominatives ? </legend>
+
+			<label class="radio">
+				<input type="radio" name="Q18" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q18" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ18" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	<div id="Q-19" class="hidden">
+		<fieldset>
+			<legend>Votre base de données contient-elle des données personnelles ? </legend>
+
+			<label class="radio">
+				<input type="radio" name="Q19" value="R1" checked="checked">
+				Oui
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q19" value="R2">
+				Pseudonymisées
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q19" value="R3">
+				Anonymisées
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q19" value="R4" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ19" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-10" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous limiter l’usage de votre base de données à un domaine restreint ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q10" value="R1" checked="checked">
+				Secteur Public <a href="#" class="tooltip1" rel="tooltip" title="Le secteur public, aux termes de cette licence, doit s’entendre, notamment, comme des services de l’Etat, des opérateurs de l’Etat, des collectivités territoriales ou des organismes de protection sociale. La présente licence s’étend aussi à la formation des agents publics.">?</a>
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q10" value="R2" >
+				Sciences et arts <a href="#" class="tooltip1" rel="tooltip" title="Limitation à la science et à l'art">?</a>
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q10" value="R3">
+				Non <a href="#" class="tooltip1" rel="tooltip" title="Je ne souhaite pas restreindre le domaine d'utilisation de mon contenu">?</a>
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ10" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-11" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous imposer le partage de votre base de données et des adaptations sous les mêmes conditions ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q11" value="R1" checked="checked">
+				Sauf redevances
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q11" value="R2" >
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q11" value="R3" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ11" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	<div id="Q-12" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous limiter l’usage de votre logiciel à un domaine restreint ?</legend>
+
+<label class="radio">
+				<input type="radio" name="Q12" value="R1" checked="checked">
+				Secteur Public <a href="#" class="tooltip1" rel="tooltip" title="Le secteur public, aux termes de cette licence, doit s’entendre, notamment, comme des services de l’Etat, des opérateurs de l’Etat, des collectivités territoriales ou des organismes de protection sociale. La présente licence s’étend aussi à la formation des agents publics.">?</a>
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q12" value="R2" >
+				Sciences et arts <a href="#" class="tooltip1" rel="tooltip" title="Limitation à la science et à l'art">?</a>
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q12" value="R3">
+				Non <a href="#" class="tooltip1" rel="tooltip" title="Je ne souhaite pas restreindre le domaine d'utilisation de mon contenu">?</a>
+			</label>
+			
+			<br/>
+			<br/>
+
+			<button id="BQ12" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-13" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous autoriser les modifications de votre logiciel pour un usage non commercial ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q13" value="R1" checked="checked">
+				Oui sous condition de partage dans les mêmes conditions
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q13" value="R2" >
+				Oui
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ13" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+	
+	<div id="Q-14" class="hidden">
+		<fieldset>
+			<legend>Souhaitez vous autoriser l’usage commercial de votre logiciel ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q14" value="R1" checked="checked">
+				Oui
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q14" value="R2" >
+				Non
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ14" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+<div id="Q-15" class="hidden">
+		<fieldset>
+			<legend>Souhaitez-vous obligé le partage de votre logiciel sous les mêmes conditions ?</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q15" value="R1" checked="checked">
+				Non
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q15" value="R2" >
+				Oui
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q15" value="R3" >
+				Oui, ainsi que des adaptations
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ15" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+
+
+	<div id="R-1" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" ><img src="images/CC_01.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a></textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-2" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY - NC</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" >  <img src="images/CC_04.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-3" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY - ND</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by-nd/4.0/" target="_blank" >  <img src="images/CC_03.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Licence Creative Commons Attribution - Pas de Modification 4.0 International</a>.</textarea>
+		</fieldset></p>
+	</div>
+
+	<div id="R-4" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY - NC - ND</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" >  <img src="images/CC_06.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-5" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY - NC - SA</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" >  <img src="images/CC_05.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-6" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Creative Commons - BY - SA</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" >  <img src="images/CC_02.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-7" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Licence Exception Pédagogique</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licence-exception-pedagogique/licence-exception-pedagogique-lep/" target="_blank" >  <img src="images/lep.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licence-exception-pedagogique/licence-exception-pedagogique-lep/" target="_blank" >  <img alt="Licence LEP" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lep.png" /></a><br/> Cette oeuvre est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licence-exception-pedagogique/licence-exception-pedagogique-lep/" target="_blank" >Licence d'exception pédagogique</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-8" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Licence ouverte / Open licence</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html" target="_blank">  <img src="images/lo.png"/></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html" target="_blank" >  <img alt="Licence LO/OL" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lo.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html" target="_blank" >Licence Ouverte / Open Licence (Etalab)</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-9" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Licence ouverte / Open licence compatible CC - BY</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html" target="_blank" >  <img src="images/lo.png" /></a></p>
+			<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" >  <img src="images/CC_01.png" /></a>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a href="http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html" target="_blank" >  <img src="http://www.botermans.be/gen/images/lo.png" /></a>
+			<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" >  <img src="http://www.botermans.be/gen/images/CC_01.png" /></a></textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-10" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée :  Open Database License version Ville de Paris</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" ><img src="http://opendata.paris.fr/opendata/images/header.png"</a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" >  <img alt="Licence ODbL Paris" src="http://opendata.paris.fr/opendata/images/header.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" >Licence ODbL Version Paris</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-11" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Open Database License</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://opendatacommons.org/licenses/odbl/" target="_blank" ><h1>Open Database Licence (ODbL)</h1></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://opendatacommons.org/licenses/odbl/" target="_blank" >  <h1>Licence ODbL <h1/></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://opendatacommons.org/licenses/odbl/" target="_blank" >Licence ODbL</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-12" class="hidden">
+		<fieldset>
+			<legend>Licence proposée : Licence Information Publique</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-2-0-lip/" target="_blank"> <img src="images/lip.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-2-0-lip/" target="_blank" >  <img alt="Licence Information Publique" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lip.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-2-0-lip/" target="_blank" >Licence Information Publique</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-13" class="hidden">
+		<fieldset>
+			<legend>Licence proposée : Licence Information Publique - Données Personnelles Administratives</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-administratives-lip-dna/" target="_blank" >  <img src="images/lip-dpa.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-administratives-lip-dna/" target="_blank" >  <img alt="Licence Information Publique - DPA" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lip-dpa.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-administratives-lip-dna/" target="_blank" >Licence Information Publique comprenant des données personnelles administratives </a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-14" class="hidden">
+		<fieldset>
+			<legend>Licence proposée : Licence Information Publique - Données Personnelles Nominatives</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-nominatives-lip-dpn/" target="_blank" >  <img src="images/lip-dpn.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-nominatives-lip-dpn/" target="_blank" >  <img alt="Licence Information Publique - DPN" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lip-dpn.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-information-publique/licence-information-publique-comprenant-des-donnees-personnelles-nominatives-lip-dpn/" target="_blank" >Licence Information Publique comprenant des données personnelles nominatives </a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-15" class="hidden">
+		<fieldset>
+			<legend>Licence proposée : Licence « Design your privacy » de Flux comprenant des Données Personnelles Nominatives</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-de-flux-comprenant-des-donnees-personnelles-nominatives-design-your-privacy-dyp-fn/" target="_blank" >  <img src="images/dyp-fn.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-de-flux-comprenant-des-donnees-personnelles-nominatives-design-your-privacy-dyp-fn/" target="_blank" >  <img alt="Licence Information Publique - DPN" src="http://www.droitnumerique-sorbonne.fr/generateur/images/dyp-fn.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-de-flux-comprenant-des-donnees-personnelles-nominatives-design-your-privacy-dyp-fn/" target="_blank" >Licence « Design your privacy » de Flux comprenant des Données Personnelles Nominatives </a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-16" class="hidden">
+		<fieldset>
+			<legend>Licence proposée : Licence « Design your privacy » de Stock comprenant des Données Personnelles Anonymisées</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-anonymisees-dyp-sa/" target="_blank" >  <img src="images/dyp-sa.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-anonymisees-dyp-sa/" target="_blank" >  <img alt="Licence Information Publique - DPN" src="http://www.droitnumerique-sorbonne.fr/generateur/images/dyp-sa.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-anonymisees-dyp-sa/" target="_blank" >Licence « Design your privacy » de Stock comprenant des Données Personnelles Anonymisées </a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-17" class="hidden">
+		<fieldset>
+			<legend>Licence sélectionnée : Licence « Design your privacy » de Stock comprenant des Données Personnelles ayant fait l’objet d’un procédé de pseudonymisation</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-flux-comprenant-des-donnees-personnelles-anonymisees-dyp-fa/" target="_blank" >  <img src="images/dyp-sp1.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-flux-comprenant-des-donnees-personnelles-anonymisees-dyp-fa/" target="_blank" >  <img alt="Licence DYP FA" src="http://www.droitnumerique-sorbonne.fr/generateur/images/dyp-sp1.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-flux-comprenant-des-donnees-personnelles-anonymisees-dyp-fa/" target="_blank" >Licence « Design your privacy » de Stock comprenant des Données Personnelles ayant fait l’objet d’un procédé de pseudonymisation </a>.</textarea></p>
+		</fieldset>
+	</div>
+
+	<div id="R-18" class="hidden">
+		<fieldset>
+			<legend>Licence « Design your privacy » de Stock comprenant des Données Personnelles Nominatives</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-nominatives-dyp-sn/" target="_blank" >  <img src="images/dyp-sn.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-nominatives-dyp-sn/" target="_blank" >  <img alt="Licence DYP SN" src="http://www.droitnumerique-sorbonne.fr/generateur/images/dyp-sn.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-partage-donnees-personnelles/licence-design-your-privacy-de-stock-comprenant-des-donnees-personnelles-nominatives-dyp-sn/" target="_blank" >Licence « Design your privacy » de Stock comprenant des Données Personnelles Nominatives </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-19" class="hidden">
+		<fieldset>
+			<legend>Licence Secteur Public - Contenu</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-sur-les-contenus-2/" target="_blank" >  <img src="images/lsp_contenu.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-sur-les-contenus-2/" target="_blank" >  <img alt="Licence DYP SN" src="http://www.droitnumerique-sorbonne.fr/generateur/lsp_contenu.png" /></a><br/> Ce contenu est mis à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-sur-les-contenus-2/" target="_blank" >Licence Secteur Public </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-20" class="hidden">
+		<fieldset>
+			<legend>Licence Secteur Public - Informations</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-information/" target="_blank" >  <img src="images/lsp_informations.png" /></a></p>
+			<br/>			
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-information/" target="_blank" >  <img alt="Licence Secteur Public" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lsp_informations.png" /></a><br/> Cette base de données est mise à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-information/" target="_blank" >Licence Secteur Public </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-21" class="hidden">
+		<fieldset>
+			<legend>Licence Secteur Public - Logiciel A</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-a/" target="_blank" >  <img src="images/lsp_log_a.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-a/" target="_blank" >  <img alt="Licence Secteur Public" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lsp_log_a.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-a/" target="_blank" >Licence Secteur Public </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-22" class="hidden">
+		<fieldset>
+			<legend>Licence Secteur Public - Logiciel B</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-b/" target="_blank" >  <img src="images/lsp_log_b.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-b/" target="_blank" >  <img alt="Licence Secteur Public" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lsp_log_b.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-b/" target="_blank" >Licence Secteur Public </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-23" class="hidden">
+		<fieldset>
+			<legend>Licence de documentation libre GNU</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.gnu.org/licenses/fdl-1.3.html" target="_blank" >  <img src="images/gfdl.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.gnu.org/licenses/fdl-1.3.html" target="_blank" >  <img alt="Licence Secteur Public" src="http://www.droitnumerique-sorbonne.fr/generateur/images/gfdl.png" /></a><br/> Ce contenu est mis à disposition selon les termes de la <a rel ="license" href="http://www.gnu.org/licenses/fdl-1.3.html" target="_blank" >Licence de documentation libre GNU </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-24" class="hidden">
+		<fieldset>
+			<legend>Licence DSL</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://fr.wikipedia.org/wiki/Licence_de_documentation_libre_GNU" target="_blank" >  <img src="images/dsl.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-b/" target="_blank" >  <img alt="Licence Secteur Public" src="http://www.droitnumerique-sorbonne.fr/generateur/images/lsp_log_b.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.patrimoine-immateriel.fr/licences-secteur-public/licence-secteur-public-logiciel-b/" target="_blank" >Licence Secteur Public </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-25" class="hidden">
+		<fieldset>
+			<legend>Licence Educationnal Community</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://opensource.org/licenses/ECL-2.0" target="_blank" >  <img src="images/educ.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://opensource.org/licenses/ECL-2.0" target="_blank" >  <img alt="Licence Educationnal Community" src="http://www.droitnumerique-sorbonne.fr/generateur/images/educ.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://opensource.org/licenses/ECL-2.0" target="_blank" >Licence Educationnal Community </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+		<div id="R-26" class="hidden">
+		<fieldset>
+			<legend>Licence GPL-GNU</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://fr.wikipedia.org/wiki/Licence_de_documentation_libre_GNU" target="_blank" >  <img src="images/gnu_gpl.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.fr.html" target="_blank" >  <img alt="Licence GPL-GNU" src="http://www.droitnumerique-sorbonne.fr/generateur/images/gnu_gpl.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="https://www.gnu.org/licenses/gpl-3.0.fr.html" target="_blank" >Licence GPL - GNU </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+		<div id="R-27" class="hidden">
+		<fieldset>
+			<legend>Licence CeCILL</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html" target="_blank" >  <img src="images/cecill.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html" target="_blank" >  <img alt="Licence CeCILL" src="http://www.droitnumerique-sorbonne.fr/generateur/images/cecill.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html" target="_blank" >Licence CeCILL </a>.</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-28" class="hidden">
+		<fieldset>
+			<legend>Licences Apache, Boost, Cryptix, BSD Original</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href=" " target="_blank" >  <img src=" " /></a></p>
+			<br/>
+			<br/>
+			<p>Distinction à venir</p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly>à venir</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-29" class="hidden">
+		<fieldset>
+			<legend>Licences eCos, LPUE, MPL</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://fr.wikipedia.org/wiki/Licence_de_documentation_libre_GNU" target="_blank" >  <img src="images/cecill.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Distinction à venir</p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly>à venir</textarea></p>
+		</fieldset>
+	</div>
+	
+	<div id="R-30" class="hidden">
+		<fieldset>
+			<legend>Licence Eiffel Forum</legend>
+			<p>Cliquez sur l'image pour lire la licence proposée :</p>
+			<p align="center"><a href="http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" target="_blank" >  <img src="images/eiffel.png" /></a></p>
+			<br/>
+			<br/>
+			<p>Copiez/collez ce code HTML dans vos pages pour y déclarer l'utilisation de cette licence :</p>
+			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" target="_blank" >  <img alt="Licence Eiffel Forum" src="http://www.droitnumerique-sorbonne.fr/generateur/images/eiffel.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" target="_blank" >Licence Eiffel Forum</a>.</textarea></p>
+		</fieldset>
+	</div>
+
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$(window).ready(function()
+	{
+		$('.tooltip1').tooltip();
+
+		var wrapQ1 = $('#Q-1');
+		var wrapQ2 = $('#Q-2');
+		var wrapQ3 = $('#Q-3');
+		var wrapQ4 = $('#Q-4');
+		var wrapQ5 = $('#Q-5');
+		var wrapQ6 = $('#Q-6');
+		var wrapQ7 = $('#Q-7');
+		var wrapQ8 = $('#Q-8');
+		var wrapQ9 = $('#Q-9');
+		var wrapQ10 = $('#Q-10');
+		var wrapQ11 = $('#Q-11');
+		var wrapQ12 = $('#Q-12');
+		var wrapQ13 = $('#Q-13');
+		var wrapQ14 = $('#Q-14');
+		var wrapQ15 = $('#Q-15');
+		var wrapQ16 = $('#Q-16');
+		var wrapQ17 = $('#Q-17');
+		var wrapQ18 = $('#Q-18');
+		var wrapQ19 = $('#Q-19');
+
+		var result1 = $('#R-1');
+		var result2 = $('#R-2');
+		var result3 = $('#R-3');
+		var result4 = $('#R-4');
+		var result5 = $('#R-5');
+		var result6 = $('#R-6');
+		var result7 = $('#R-7');
+		var result8 = $('#R-8');
+		var result9 = $('#R-9');
+		var result10 = $('#R-10');
+		var result11 = $('#R-11');
+		var result12 = $('#R-12');
+		var result13 = $('#R-13');
+		var result14 = $('#R-14');
+		var result15 = $('#R-15');
+		var result16 = $('#R-16');
+		var result17 = $('#R-17');
+		var result18 = $('#R-18');
+		var result19 = $('#R-19');
+		var result20 = $('#R-20');
+		var result21 = $('#R-21');
+		var result22 = $('#R-22');
+		var result23 = $('#R-23');
+		var result24 = $('#R-24');
+		var result25 = $('#R-25');
+		var result26 = $('#R-26');
+		var result27 = $('#R-27');
+		var result28 = $('#R-28');
+		var result29 = $('#R-29');
+		var result30 = $('#R-30');
+
+		var buttonQ1 = $('#BQ1').click(function()
+		{
+			var resultQ = $('input[name=Q1]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ1.hide();
+				wrapQ2.show();
+			}
+			else if(resultQ === 'R3')
+			{
+				wrapQ1.hide();
+				wrapQ12.show();
+			}
+			else if(resultQ === 'R2')
+			{
+				wrapQ1.hide();
+				wrapQ16.show();
+			}
+		});
+
+		var buttonQ2 = $('#BQ2').click(function()
+		{
+			var resultQ = $('input[name=Q2]:checked').val();
+			if(resultQ === 'R2')
+			{
+				wrapQ2.hide();
+				result7.show();
+			}
+			else if(resultQ === 'R1')
+			{
+				wrapQ2.hide();
+				result19.show();
+			}
+			else
+			{
+				wrapQ2.hide();
+				wrapQ3.show();
+			}
+		});
+
+			var buttonQ3 = $('#BQ3').click(function()
+		{
+			var resultQ = $('input[name=Q3]:checked').val();
+			if(resultQ === 'R2')
+			{
+				wrapQ3.hide();
+				wrapQ9.show();
+			}
+			else
+			{
+				wrapQ3.hide();
+				wrapQ4.show();
+			}
+		});
+
+		var buttonQ4 = $('#BQ4').click(function()
+		{
+			var resultQ = $('input[name=Q4]:checked').val();
+			if(resultQ === 'R2')
+			{
+				wrapQ4.hide();
+				result23.show();
+			}
+			else
+			{
+				wrapQ4.hide();
+				wrapQ5.show();
+			}
+		});
+
+		var buttonQ5 = $('#BQ5').click(function()
+		{
+			var resultQ = $('input[name=Q5]:checked').val();
+			if(resultQ === 'R2')
+			{
+				wrapQ5.hide();
+				result9.show();
+			}
+			else
+			{
+				wrapQ5.hide();
+				result8.show();
+			}
+		});
+
+		var buttonQ6 = $('#BQ6').click(function()
+		{
+			var resultQ = $('input[name=Q6]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ6.hide();
+				wrapQ7.show();
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				wrapQ6.hide();
+				result13.show();
+			}
+			
+			else
+			{
+				wrapQ6.hide();
+				wrapQ8.show();
+			}
+		});
+
+		var buttonQ7 = $('#BQ7').click(function()
+		{
+			var resultQ = $('input[name=Q7]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ7.hide();
+				result6.show();
+			}
+			else
+			{
+				wrapQ7.hide();
+				result1.show();
+			}
+		});
+
+		var buttonQ8 = $('#BQ8').click(function()
+		{
+			var resultQ = $('input[name=Q8]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ8.hide();
+				result2.show();
+			}
+			else
+			{
+				wrapQ8.hide();
+				wrapQ5.show();
+			}
+		});
+
+		var buttonQ9 = $('#BQ9').click(function()
+		{
+			var resultQ = $('input[name=Q9]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ9.hide();
+				result3.show();
+			}
+			else
+			{
+				wrapQ9.hide();
+				result4.show();
+			}
+		});
+
+		var buttonQ16 = $('#BQ16').click(function()
+		{
+			var resultQ = $('input[name=Q16]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ16.hide();
+				wrapQ17.show();	
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				
+				wrapQ16.hide();
+				wrapQ19.show();
+			}
+			
+		});
+		
+		var buttonQ17 = $('#BQ17').click(function()
+		{
+			var resultQ = $('input[name=Q17]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ17.hide();
+				result14.show();	
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				
+				wrapQ17.hide();
+				wrapQ10.show();
+			}
+			
+		});
+		
+		var buttonQ18 = $('#BQ18').click(function()
+		{
+			var resultQ = $('input[name=Q18]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ18.hide();
+				wrapQ19.show();	
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				
+				wrapQ18.hide();
+				wrapQ10.show();
+			}
+			
+		});
+		
+		var buttonQ19 = $('#BQ19').click(function()
+		{
+			var resultQ = $('input[name=Q19]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ19.hide();
+				result15.show();	
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				
+				wrapQ19.hide();
+				result17.show();
+			}
+			
+			else if(resultQ === 'R3')
+			{
+				
+				wrapQ19.hide();
+				result16.show();
+			}
+			
+			else if(resultQ === 'R4')
+			{
+				
+				wrapQ19.hide();
+				wrapQ10.show();
+			}
+			
+		});
+		
+		var buttonQ10 = $('#BQ10').click(function()
+		{
+			var resultQ = $('input[name=Q10]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ10.hide();
+				result20.show();	
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				
+				wrapQ10.hide();
+				wrapQ24.show();
+			}
+			
+			else
+			{
+				
+				wrapQ10.hide();
+				wrapQ11.show();
+			}
+		});
+
+		var buttonQ11 = $('#BQ11').click(function()
+		{
+			var resultQ = $('input[name=Q11]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ11.hide();
+				result11.show();
+			}
+			else if(resultQ === 'R2')
+			{
+				wrapQ11.hide();
+				result10.show();
+			}
+			else
+			{
+				wrapQ11.hide();
+				result8.show();
+			}
+		});
+		
+		var buttonQ12 = $('#BQ12').click(function()
+		{
+			var resultQ = $('input[name=Q12]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ12.hide();
+				result22.show();
+			}
+			else if(resultQ === 'R2')
+			{
+				wrapQ12.hide();
+				result25.show();
+			}
+			else
+			{
+				wrapQ12.hide();
+				wrapQ13.show();
+			}
+		});
+		
+		var buttonQ13 = $('#BQ13').click(function()
+		{
+			var resultQ = $('input[name=Q13]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ13.hide();
+				wrapQ14.show();
+			}
+			
+			else
+			{
+				wrapQ13.hide();
+				wrapQ15.show();
+			}
+		});
+		
+		var buttonQ14 = $('#BQ14').click(function()
+		{
+			var resultQ = $('input[name=Q13]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ14.hide();
+				result26.show();
+			}
+			
+			else
+			{
+				wrapQ14.hide();
+				result27.show();
+			}
+		});
+		
+		var buttonQ15 = $('#BQ15').click(function()
+		{
+			var resultQ = $('input[name=Q15]:checked').val();
+			if(resultQ === 'R1')
+			{
+				wrapQ15.hide();
+				result28.show();
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				wrapQ15.hide();
+				result29.show();
+			}
+			
+			else
+			{
+				wrapQ15.hide();
+				result30.show();
+			}
+		});
+
+	});
+</script>
