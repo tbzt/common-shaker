@@ -825,6 +825,16 @@
 			<p align="center"><textarea  class="copyCode" readonly><a rel="license" href="http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" target="_blank" >  <img alt="Licence Eiffel Forum" src="http://www.droitnumerique-sorbonne.fr/generateur/images/eiffel.png" /></a><br/> Ce logiciel est mis à disposition selon les termes de la <a rel ="license" href="http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" target="_blank" >Licence Eiffel Forum</a>.</textarea></p>
 		</fieldset>
 	</div>
+	
+	<div id="R-31" class="hidden">
+		<fieldset>
+			<legend>En développement</legend>
+			<p>Nous travaillons actuellement sur le développement de cette partie. 
+			<br/>
+			<p>Si vous souhaitez nous aider vous pouvez vous rendre sur la page <a href="https://github.com/kidbzt/common-shaker/" target="_blank" >Github</a> du projet.</p>
+		</fieldset>
+	</div>
+
 
 </div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -885,6 +895,7 @@
 		var result28 = $('#R-28');
 		var result29 = $('#R-29');
 		var result30 = $('#R-30');
+		var result31 = $('#R-31');
 
 		var buttonQ1 = $('#BQ1').click(function()
 		{
@@ -903,6 +914,11 @@
 			{
 				wrapQ1.hide();
 				wrapQ16.show();
+			}
+			else if(resultQ === 'R4')
+			{
+				wrapQ1.hide();
+				result31.show();
 			}
 		});
 
