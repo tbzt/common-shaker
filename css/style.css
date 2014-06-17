@@ -11,15 +11,6 @@
 	font-weight: bold;
 	src: url(fonts/Gill Sans Bold.ttf) format("opentype");
 	
-	
-	font-family: "Ribbon";
-src: url(fonts/ribbon_v2_2011-webfont.eot);
-src: url(fonts/ribbon_v2_2011-webfont.eot?#iefix) format("embedded-opentype"),
-url(fonts/ribbon_v2_2011-webfont.woff) format("woff"),
-url(fonts/ribbon_v2_2011-webfont.ttf) format("truetype"),
-url(fonts/ribbon_v2_2011-webfont.svg#Ribbon) format("svg");
-	font-weight: normal;
-	font-style: normal;
 }
 
 
