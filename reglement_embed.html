@@ -1,0 +1,439 @@
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/embed.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<div id="wrapper">
+	<div id="Q-1">
+		<fieldset>
+			<legend>Clause de confidentialité</legend>
+				<div> Voulez-vous que le projet lauréat élaboré lors du Hackathon reste confidentiel pendant « X » durée ou tant que vous n’avez pas donné votre accord pour la divulgation ?
+			<label class="radio">
+				<input type="radio" name="Q1" value="R1" checked="checked">
+				
+				<div id="reponse01">Autorisation de divulgation<br />Les participants, par la signature de l’accord de non divulgation annexé à ce règlement, renoncent à toute présentation, représentation ou communication de l’œuvre sous quelle forme que ce soit sans l’autorisation de l’organisateur.</div>
+				</input>
+				
+			</label>
+			
+			<label class="radio">
+				<input type="radio" name="Q1" value="R2" >
+				
+				<div id="reponse02">Confidentialité maintenue pour <span id="vartxtboxrep02"></span><input type="text" value="X" name="txtboxrep02" style="width:30px; height:30px;"></input> mois. <br />Les participants, par la signature de l’accord de non divulgation annexé à ce règlement, renoncent à toute présentation, représentation ou communication de l’œuvre sous quelle forme que ce soit pour une durée fixée entre les parties. <br/>
+				</div>
+				</input>
+			</label>
+			
+			
+
+			<br/>
+
+			<button id="BQ1" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+	
+
+	<div id="Q-2" class="hidden">
+		<fieldset>
+			<legend>Clause de droits antérieurs</legend>
+
+			<div id="reponse03">Toutes les dénominations, marques ou autres signes distinctifs cités au présent règlement ou sur les pages du site dédié au Hackathon demeurent la propriété exclusive de leur auteur ou de leur déposant.
+
+La reproduction et la représentation de toute ou partie des éléments composant le Hackathon sont strictement interdites. <br/>
+
+Toutes les données (notamment photographies, sons et textes) mises à la disposition des participants sous quelques formes que ce soit  au cours du Hackathon par les organisateurs et/ou le partenaire (ci-après les « Données ») demeurent la propriété exclusive des organisateurs et/ou du Partenaire.<br/> </div>
+				
+
+			<br/>
+			<br/>
+
+			<button id="BQ2" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-3" class="hidden">
+		<fieldset>
+			<legend>Clause d’exploitation :</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q3" value="R1" checked="checked">
+				Oui <br/> <div id="reponse04">Les participants acceptent, par la signature de ce règlement, que leur projet, excepté le code, soit diffusé librement via une licence Creative Commons dont les attributs sont : (générateur à renseigner par les participants) 
+				http://creativecommons.org/choose/   <br> Le code du projet fera quant à lui l’objet d’une licence GNU-GPLV3. <br/> </div>
+
+
+				</input>
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q3" value="R2" id="q3_non">
+				Non <br/> Désirez garder un droit exclusif d’exploitation des projets ou seulement un droit de préférence ? 
+			</label>
+			
+	<label class="radio" id="lbldroitexclu">
+				<input type="radio" name="Q3_1" value="R2.1" >
+				<div id="reponse06"> Droit exclusif <br/> </div>
+			</label>	
+	
+<label class="radio" id="lbldroitpref">
+				<input type="radio" name="Q3_1" value="R2.2" >
+				<div id="reponse07"> Droit de préférence <br/> </div>
+			</label>		
+		<br/>
+		<br/>
+
+		<button id="BQ3" type="submit" class="btn btn-danger">Suivant</button>
+	</div>
+
+	<div id="Q-4" class="hidden">
+		<fieldset>
+			<legend>Droit de préférence </legend>
+			<div id="reponse08">Les participants proposent en priorité aux Organisateurs, sur le Projet, toute collaboration ou exploitation commerciale ou non commerciale qu’ils souhaiteraient mener, dans leur secteur d’activité, dans le monde entier, sur leur(s) site(s) internet ainsi que sur tout support existant ou à venir, tels que les logiciels, DVD, clés USB, etc. </div>
+
+<br/> Souhaitez vous autoriser les participants à exploiter commercialement ou non commercialement le projet dans l’ensemble des domaines dans lesquels vous n’exerceriez pas vous-même votre droit d’exploitation ?<br/> <br/>
+
+			<label class="radio">
+				<input type="radio" name="Q4" value="R1" checked="checked">
+				Oui <br/> <div id="reponse09"> Dans le cas où l’Organisateur limite son exploitation commerciale quant aux supports, lieux ou secteurs d’activités, les Participants disposent d’un droit de préférence pour exploiter eux-mêmes commercialement le Projet, dans les lieux, secteurs d’activité ou via les supports non exploités par l’Organisateur. Le cas échéant, les Participants devront recueillir l’accord exprès de l’Organisateur. </br> </div>
+ 
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q4" value="R2" >
+				Non 
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ4" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-5" class="hidden">
+		<fieldset>
+			<legend>Clause de droit exclusif</legend>
+
+			<label class="radio">
+				<input type="radio" name="Q5" value="R1" checked="checked">
+				<div id="reponse10">Les Participants, par la signature de ce règlement, confèrent aux Organisateurs un droit exclusif d'exploitation sur toutes collaborations ou exploitations commerciales ou non commerciales qu’ils souhaiteraient mener, dans leur secteur d’activité, dans le monde entier, sur leur(s) site(s) internet ainsi que sur tout support existant ou à venir tels que les logiciels, DVD, cles USB.<br/> </div>
+			</label>
+
+			
+			<br/>
+			<br/>
+
+			<button id="BQ5" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-6" class="hidden">
+		<fieldset>
+			<legend>Clause d’intéressement</legend>
+			<div>Comment voulez-vous rémunérer les participants dont le projet serait exploité ?</div>
+			<label class="radio">
+				<input type="radio" name="Q6" value="R1" checked="checked">
+				<div id="reponse11">En numéraire : <span id="vartxtboxrep11"></span><input type="text" value="chiffre a rentrer" name="txtboxrep11" style="width:50px; height:30px;"> euro. </input> <br/> </div>
+				<br> 
+			</label>
+
+			<label class="radio">
+				<input type="radio" name="Q6" value="R2" >
+				En % des résultats de l’exploitation : 
+				<div id="reponse12">Dans le cas où le ou les Organisateur(s) entendrait exploiter commercialement un Projet, un intéressement de <span id="vartxtboxrep12"></span><input type="text" value="X" name="txtboxrep12" style="width:30px; height:30px;" ></input>% sera reversé à l’Equipe ayant développé ledit projet <br/>.
+
+Cet intéressement pourra être partagé entre les Participants suivant la répartition prévue dans la « Clause Partage des Droits ». </div>
+
+			</label>
+
+			<br/>
+			<br/>
+
+			<button id="BQ6" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	<div id="Q-7" class="hidden">
+		<fieldset>
+			<legend>Clause de partage des droits </legend> </br> 
+				
+			<div id="reponse13">Dans le cas où l’Organisateur entendrait exploiter commercialement et non commercialement le Projet, un intéressement individuel de chaque Participant au dit Projet est prévu et sera calculé de la manière suivante.<br/> </div>
+			<br/> De quelles façons voulez-vous qu’il soit calculé ?
+			<label class="radio">
+				<input type="radio" name="Q7" value="R1" id="q7_oui">
+				<div id="reponse14"> Via un document de partage des droits à parts égales entre les participants. <br/> Les Participants signeront un document partageant les droits entre eux. Le cas échéant ils choisiront entre les deux options suivantes : un partage à parts égales des droits entre chaque Participant ou un partage selon des modalités définies par les Participants eux-mêmes. <br/> </div>
+
+Voulez-vous prévoir le recours à un jury d’évaluation des apports des Participants au projet dans le cas où ces derniers  n’auraient pas trouvé un commun accord dans le partage des droits ?
+
+			</label>
+			
+
+				<label class="radio" id="lbltxtpartageoui">
+					<input type="radio" name="Q7_1" value="R1.1">
+					Oui
+					<div id="reponse15">Si les Participants ne parvenaient pas à un commun accord concernant la répartition de leurs droits au sein du groupe, le jury procéderait alors à une évaluation individuelle des apports de chaque Participant.<br/> </div>
+				</label>
+				<label class="radio" id="lbltxtpartagenon">
+					<input type="radio" name="Q7_1" value="R1.2">
+					Non
+				</label>
+			
+			
+			
+
+			<label class="radio">
+				<input type="radio" name="Q7" value="R2" >
+				<div id="reponse16">Via un jury d’évaluation des apports de chaque participant au projet : <br/> Il sera fait appel à un jury d’évaluation des apports* (comprenant un commissaire aux apports)  afin de régler la répartition des droits au sein du groupe.<br/> L’intéressement financier des Participants du à l’exploitation commerciale du Projet sera proportionnel aux apports ainsi définis.<br/> </div>
+			</label>
+		<br/>
+		<br/>
+
+			<br/>
+			<br/>
+
+			<button id="BQ7" type="submit" class="btn btn-danger">Suivant</button>
+		</fieldset>
+	</div>
+
+	
+	
+
+
+	<div id="R-1" class="hidden">
+		<fieldset>
+			<legend>Règlement hackathon</legend>
+
+			<p id="result-questions">
+			<!-- Ici s'affiche le reglement -->
+			
+			</p>
+		
+		</fieldset>
+	</div>
+	
+
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$(window).ready(function()
+	{
+		$('.tooltip1').tooltip();
+
+		var wrapQ1 = $('#Q-1');
+		var wrapQ2 = $('#Q-2');
+		var wrapQ3 = $('#Q-3');
+		var wrapQ4 = $('#Q-4');
+		var wrapQ5 = $('#Q-5');
+		var wrapQ6 = $('#Q-6');
+		var wrapQ7 = $('#Q-7');
+
+		
+		var result1 = $('#R-1');
+
+		
+		var txtfinal = "";
+		
+		$('#lbldroitexclu').hide();
+		$('#lbldroitpref').hide();
+		$('#q3_non').click(function(){
+			$('#lbldroitexclu').show();
+			$('#lbldroitpref').show();
+		});
+		
+		$('#lbltxtpartageoui').hide();
+		$('#lbltxtpartagenon').hide();
+		$('#q7_oui').click(function(){
+			$('#lbltxtpartageoui').show();
+			$('#lbltxtpartagenon').show();
+		});
+		
+		var numeroquestion = 1;
+		
+		var buttonQ1 = $('#BQ1').click(function()
+		{
+			var resultQ = $('input[name=Q1]:checked').val();
+			if(resultQ === 'R1')
+			{
+				txtfinal+= '<h5>'+numeroquestion+'. Clause de confidentialité</h5>'+$('#reponse01').html();
+				//alert(txtfinal);
+				wrapQ1.hide();
+				wrapQ2.show();	
+				numeroquestion++;
+}				
+			else if(resultQ === 'R2')
+			{
+				var txtboxrep02 = $('input[name=txtboxrep02]').val(); //On met le contenu de la txtbox en variable "txtboxrep02"
+				$('#vartxtboxrep02').append(txtboxrep02); //On injecte le contenu de la variable "txtboxrep02" dans l'élément span partant l'id "vartxtboxrep02"
+				$('input[name=txtboxrep02]').remove(); //On détruit l'élément de formulaire txtbox car on n'a plus besoin de l'afficher.
+				txtfinal+='<h5>'+numeroquestion+'. Clause de confidentialité</h5>'+$('#reponse02').html() //On ajoute l'ensemble du text séléctionné dans la variable txtfinal (on ajoute le text à l'ancienne valeur)
+				//alert(txtfinal);
+				wrapQ1.hide(); //On cache l'élément actuel
+				wrapQ2.show(); //On affiche le nouvel élément qui affiche la nouvelle question.
+				numeroquestion++;
+			}
+			
+		});
+
+		var buttonQ2 = $('#BQ2').click(function()
+		{
+			
+				txtfinal+='<h5>'+numeroquestion+'. Clause de droits antérieurs</h5>'+$('#reponse03').html()
+				//alert(txtfinal);
+				
+				wrapQ2.hide();
+				wrapQ3.show();
+				numeroquestion++;
+				
+
+		});
+
+			var buttonQ3 = $('#BQ3').click(function()
+		{
+			var resultQ = $('input[name=Q3]:checked').val();
+			var resultQ2 = $('input[name=Q3_1]:checked').val();
+			if(resultQ === 'R1')
+			
+			{
+				txtfinal+='<h5>'+numeroquestion+'. Clause d’exploitation</h5>'+$('#reponse04').html()
+				//alert(txtfinal);
+				wrapQ3.hide();
+				wrapQ6.show();
+				numeroquestion++;
+			}
+			
+			if (resultQ2 === 'R2.1')
+			{
+			
+				//alert(txtfinal);
+				wrapQ3.hide();
+				wrapQ5.show();
+				//numeroquestion++;
+			}
+			if (resultQ2 === 'R2.2')
+			{
+	
+				//alert(txtfinal);
+				wrapQ3.hide();
+				wrapQ4.show();
+			
+			}
+		});
+
+		var buttonQ4 = $('#BQ4').click(function()
+		{
+			var resultQ = $('input[name=Q4]:checked').val();
+			txtfinal+='<h5>'+numeroquestion+'. Droit de préférence</h5>'+$('#reponse08').html()
+			if(resultQ === 'R2')
+			{
+			
+				wrapQ4.hide();
+				wrapQ6.show();
+				numeroquestion++;
+			}
+			if (resultQ === 'R1')
+			{
+				txtfinal+=$('#reponse09').html()
+				//alert(txtfinal);
+				wrapQ4.hide();
+				wrapQ6.show();
+				numeroquestion++;
+			}
+		});
+
+		var buttonQ5 = $('#BQ5').click(function()
+		{
+				txtfinal+='<h5>'+numeroquestion+'. Clause de droit exclusif</h5>'+$('#reponse10').html()
+				//alert(txtfinal);	
+				wrapQ5.hide();
+				wrapQ6.show();
+				numeroquestion++;
+			
+		});
+
+		var buttonQ6 = $('#BQ6').click(function()
+		{
+			var resultQ = $('input[name=Q6]:checked').val();
+			if(resultQ === 'R1')
+			{
+				var txtboxrep11 = $('input[name=txtboxrep11]').val(); //On met le contenu de la txtbox en variable "txtboxrep02"
+				$('#vartxtboxrep11').append(txtboxrep11); //On injecte le contenu de la variable "txtboxrep02" dans l'élément span partant l'id "vartxtboxrep02"
+				$('input[name=txtboxrep11]').remove(); //On détruit l'élément de formulaire txtbox car on n'a plus besoin de l'afficher.
+				
+				txtfinal+='<h5>'+numeroquestion+'. Clause d\'intéressement</h5>'+$('#reponse11').html();
+				//alert(txtfinal);
+				wrapQ6.hide();
+				wrapQ7.show();
+				numeroquestion++;
+			}
+			
+			else if(resultQ === 'R2')
+			{
+				var txtboxrep12 = $('input[name=txtboxrep12]').val(); //On met le contenu de la txtbox en variable "txtboxrep02"
+				$('#vartxtboxrep12').append(txtboxrep12); //On injecte le contenu de la variable "txtboxrep02" dans l'élément span partant l'id "vartxtboxrep02"
+				$('input[name=txtboxrep12]').remove(); //On détruit l'élément de formulaire txtbox car on n'a plus besoin de l'afficher.
+				
+				txtfinal+='<h5 class="titrecr">'+numeroquestion+'. Clause d\'intéressement</h5>'+$('#reponse12').html();
+				//alert(txtfinal);
+				wrapQ6.hide();
+				wrapQ7.show();
+				numeroquestion++;
+			}
+			
+			else
+			{
+				wrapQ6.hide();
+				wrapQ8.show();
+				numeroquestion++;
+			}
+		});
+
+		var buttonQ7 = $('#BQ7').click(function()
+		{
+		
+		
+			var resultQ = $('input[name=Q7]:checked').val();
+			var resultQ2 = $('input[name=Q7_1]:checked').val();
+
+
+			
+			txtfinal+='<h5 class="titrecr">'+numeroquestion+'. Clause de partage de droits</h5>'+$('#reponse13').html();
+
+			
+		
+			if (resultQ2 === 'R1.1')
+			{
+				txtfinal+=$('#reponse14').html()+$('#reponse15').html();
+				//alert(txtfinal);
+				wrapQ7.hide();
+				result1.show();
+				$('#result-questions').append(txtfinal);
+
+			
+			
+			}
+			if (resultQ === 'R2')
+			{
+				txtfinal+=$('#reponse16').html();
+				//alert(txtfinal);
+				wrapQ7.hide();
+				result1.show();
+				$('#result-questions').append(txtfinal);
+
+			}
+			
+			if (resultQ2 === 'R1.2')
+			
+			{
+				txtfinal+=$('#reponse14').html();
+				wrapQ7.hide();
+				result1.show();
+				$('#result-questions').append(txtfinal);
+
+			}
+		});
+
+
+	});
+</script>
